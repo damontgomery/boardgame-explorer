@@ -6,7 +6,7 @@ export type BoardGame = {
   id: string
   name: string
   description: string
-  players: string
+  players: string[]
   boardGameGeekLink: string
   coverImage: string
   rulesLink: string

@@ -1,44 +1,139 @@
 {
   "results": [
     {
-      "id": "1",
-      "name": "Game A",
-      "description": "",
-      "players": "",
-      "boardGameGeekLink": "",
-      "coverImage": "",
-      "rulesLink": "",
-      "status": ["own"]
+      "id": "5782",
+      "name": "Coloretto",
+      "description": "Game play in Coloretto is simple: Either draw a card to play to a row, or take a row of cards to add them to your collection. A row can have at most three cards, so at some point everyone is forced to take a row. Once all the rows have been claimed, players start a new round, drawing or taking once again.",
+      "players": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/5782/coloretto",
+      "coverImage": "coloretto.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
     },
     {
-      "id": "2",
-      "name": "Game B",
-      "description": "",
-      "players": "",
-      "boardGameGeekLink": "",
-      "coverImage": "",
-      "rulesLink": "",
-      "status": ["previously owned"]
+      "id": "303051",
+      "name": "Godzilla: Tokyo Clash",
+      "description": "In Godzilla: Tokyo Clash, you play as the Earth's most fearsome Kaiju — Godzilla, Mothra, King Ghidorah, and Megalon — battling for dominance as the most terrifying monster in Japan. With detailed miniatures of the legendary monsters and a modular cityscape of 3D buildings to destroy, it's an epic battle every time you play!",
+      "players": [
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/303051/godzilla-tokyo-clash",
+      "coverImage": "godzilla-tokyo-clash.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
     },
     {
-      "id": "3",
-      "name": "Game C",
-      "description": "",
-      "players": "",
-      "boardGameGeekLink": "",
-      "coverImage": "",
-      "rulesLink": "",
-      "status": ["want to play"]
+      "id": "155821",
+      "name": "Inis",
+      "description": "Inis is a game deeply rooted in Celtic history and lore in which players win by being elected King of the Island (Inis).",
+      "players": [
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/155821/inis",
+      "coverImage": "inis.webp",
+      "rulesLink": "https://cdn.1j1ju.com/medias/46/41/fc-inis-rulebook.pdf",
+      "status": [
+        "own"
+      ]
     },
     {
-      "id": "4",
-      "name": "Game D",
-      "description": "",
-      "players": "",
-      "boardGameGeekLink": "",
+      "id": "420017",
+      "name": "Rebel Princess",
+      "description": "Snow White, The Little Mermaid, Cinderella, and many other legendary princesses are celebrating a five-day party. The prince charmings, who have not been invited, will try to infiltrate the ball to propose marriage to the girls. As a princess, you have to avoid marriage proposals and remain single and independent after the celebrations.",
+      "players": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/420017/rebel-princess-2nd-edition",
+      "coverImage": "rebel-princess.webp",
+      "rulesLink": null,
+      "status": [
+        "own",
+        "want to play"
+      ]
+    },
+    {
+      "id": "155987",
+      "name": "Abyss",
+      "description": "The Abyss power is once again vacant, so the time has come to get your hands on the throne and its privileges. Use all of your cunning to win or buy votes in the Council. Recruit the most influential Lords and abuse their powers to take control of the most strategic territories. Finally, impose yourself as the only one able to rule the Abyssal people!",
+      "players": [
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/155987/abyss",
       "coverImage": "",
-      "rulesLink": "",
-      "status": ["previously owned", "want to play"]
+      "rulesLink": null,
+      "status": [
+        "previously owned",
+        "want to play"
+      ]
+    },
+    {
+      "id": "167355",
+      "name": "Nemesis",
+      "description": "Playing Nemesis will take you into the heart of sci-fi survival horror in all its terror. A soldier fires blindly down a corridor, trying to stop the alien advance. A scientist races to find a solution in his makeshift lab. A traitor steals the last escape pod in the very last moment. Intruders you meet on the ship are not only reacting to the noise you make but also evolve as the time goes by. The longer the game takes, the stronger they become. During the game, you control one of the crew members with a unique set of skills, personal deck of cards, and individual starting equipment. These heroes cover all your basic SF horror needs. For example, the scientist is great with computers and research, but will have a hard time in combat. The soldier, on the other hand...",
+      "players": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/167355/nemesis",
+      "coverImage": "nemesis.webp",
+      "rulesLink": "https://awakenrealms.com/images/download/Nemesis/ENG/RULEBOOK_280x280mm_bleed3mm_28pages_PRINT.pdf",
+      "status": [
+        "want to play"
+      ]
+    },
+    {
+      "id": "104377",
+      "name": "TSCHAK!",
+      "description": "TSCHAK!' is a card game in which everybody gets to play with exactly the same hands. But who will be the most successful in avoiding the troglodytes and bigger monsters, while going for the fattest treasures, or even better, the legendary rings of power?",
+      "players": [
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/104377/tschak",
+      "coverImage": "tschak.webp",
+      "rulesLink": null,
+      "status": [
+        "previously owned"
+      ]
+    },
+    {
+      "id": "27588",
+      "name": "Zooloretto",
+      "description": "In Zooloretto, each player uses small, large, wild, and exotic animals and their young to try to attract as many visitors as possible to their zoo – but be careful! The zoo must be carefully planned as before you know it, you might have too many animals and no more room for them. That brings minus points! Luckily, your zoo can expand. A zoo of a family game in which less is sometimes more...",
+      "players": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/27588/zooloretto",
+      "coverImage": "zooloretto.webp",
+      "rulesLink": null,
+      "status": [
+        "want to play"
+      ]
     }
   ]
 }

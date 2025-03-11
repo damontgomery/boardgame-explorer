@@ -1,6 +1,5 @@
 import { getBoardGame } from "@/boardgameApi/data/boardgameApi"
-import Image from "next/image"
-import styles from "./game.module.css"
+import { GameCard } from "@/components/GameCard/GameCard"
 
 export default async function Game({
   params,
@@ -17,27 +16,15 @@ export default async function Game({
     const { name, description, players, boardGameGeekLink, coverImage, rulesLink, status } = game
 
     return (
-      <div className={styles.component}>
-        <Image className={styles.coverImage} src={`/coverImages/${coverImage}`} alt="box cover" width={1000} height={1000} />
-        <div className={styles.details}>
-          <h1 className={styles.name}>{name}</h1>
-          {status && <p className={styles.status}>
-            <span className={styles.label}>Status:</span>
-            {status}
-          </p>}
-          {players && <p className={styles.players}>
-            <span className={styles.label}>Players:</span>
-            {players.join(', ')}
-          </p>}
-          <p className={styles.description}>{description}</p>
-          {rulesLink && <p className={styles.rulesLink}>
-            <a href={rulesLink}>View the rules</a>
-          </p>}
-          {boardGameGeekLink && <p className={styles.boardGameGeekLink}>
-            <a href={boardGameGeekLink}>View more at boardgamegeek.com</a>
-          </p>}
-        </div>
-      </div>
+      <GameCard
+        name={name}
+        coverImage={coverImage}
+        description={description}
+        players={players}
+        boardGameGeekLink={boardGameGeekLink}
+        rulesLink={rulesLink}
+        status={status}
+      />
     )
   }
   catch {

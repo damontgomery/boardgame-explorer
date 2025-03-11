@@ -29,7 +29,7 @@ export const GameCard = ({
       <h1 className={styles.name}>{name}</h1>
       {status && <p className={styles.status}>
         <span className={styles.label}>Status:</span>
-        {status}
+        {status.join(', ')}
       </p>}
       {players && <p className={styles.players}>
         <span className={styles.label}>Players:</span>

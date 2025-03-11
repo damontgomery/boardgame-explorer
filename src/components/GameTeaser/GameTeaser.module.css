@@ -1,0 +1,41 @@
+.component {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  display: grid;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  border: 2px solid var(--color-secondary);
+  border-radius: 4px;
+}
+
+.coverImage {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  height: auto;
+}
+
+.details {
+  display: grid;
+  gap: 1rem;
+  height: min-content;
+  align-self: center;
+}
+
+.name {
+  color: var(--color-primary);
+}
+
+.label {
+  color: var(--color-tertiary);
+  font-weight: bold;
+  padding-right: 0.5rem;
+}

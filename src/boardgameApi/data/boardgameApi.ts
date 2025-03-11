@@ -1,6 +1,7 @@
-import mockData from './mockData.json';
+import 'server-only'
+import mockData from './mockData.json'
 
-export type BoardGameStatus = "own" | "previously owned" | "want to play";
+export type BoardGameStatus = "own" | "previously owned" | "want to play"
 
 export type BoardGame = {
   id: string
@@ -18,14 +19,14 @@ type ApiResponse = {
 }
 
 export type GetBoardGamesParams = {
-  search?: string;
-  status?: BoardGameStatus[];
+  search?: string
+  status?: BoardGameStatus[]
 }
 
 // @todo additional filters.
 export const getBoardGames = ({
   status = [],
-}: GetBoardGamesParams): Promise<BoardGame[]> => Promise.resolve(
+}: GetBoardGamesParams = {}): Promise<BoardGame[]> => Promise.resolve(
   (mockData as ApiResponse).results
     .filter((game) => {
       if (!status || status.length === 0) {

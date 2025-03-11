@@ -1,5 +1,5 @@
 import { GameTeaser as GameTeaserComponent } from "@/components/GameTeaser/GameTeaser"
-import { BoardGame } from "@/lib/boardGameApi/data-access/boardGameApi"
+import { BoardGame } from "@/lib/boardGameApi/types"
 import Image from "next/image"
 import Link from "next/link"
 import { ImageProp, LinkProp } from "./htmlElementTypes"

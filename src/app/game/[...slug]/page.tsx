@@ -1,4 +1,4 @@
-import { getBoardGame } from "@/lib/boardGameApi/data-access/boardGameApi"
+import { getBoardGame } from "@/lib/boardGameApi/data-access/boardGameServerApi"
 import { GameCard } from "@/feature/GameCard"
 
 export default async function Game({

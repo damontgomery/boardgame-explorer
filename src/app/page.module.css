@@ -12,16 +12,3 @@
   color: var(--color-primary);
   margin-bottom: 1rem;
 }
-
-.games {
-  display: grid;
-  gap: 1rem;
-  
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (min-width: 1440px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}

@@ -1,7 +1,8 @@
 import { createGameSearchSlice } from "./createGameSearchSlice"
 // import type { GameSearchThunk } from "./store"
 import type { PayloadAction } from "@reduxjs/toolkit"
-import { BoardGame } from "@/lib/boardGameApi/data-access/boardGameApi"
+import { BoardGame } from "@/lib/boardGameApi/types"
+import { getBoardGames } from "@/lib/boardGameApi/data-access/boardGameApi"
 
 export interface FilterState {
   type: string
@@ -9,7 +10,7 @@ export interface FilterState {
   id: string
 }
 
-export type GameSearchStateStatus = "idle" | "loading" | "failed" 
+export type GameSearchStateStatus = "idle" | "loading" | "failed"
 
 export interface GameSearchSliceState {
   filters: FilterState[]
@@ -40,6 +41,22 @@ export const gameSearchSlice = createGameSearchSlice({
     setStatus: create.reducer((state, action: PayloadAction<GameSearchStateStatus>) => {
       state.status = action.payload
     }),
+    executeSearch: create.asyncThunk(
+      // @todo use filters to modify search.
+      getBoardGames,
+      {
+        pending: (state) => {
+          state.status = "loading"
+        },
+        fulfilled: (state, action) => {
+          state.status = "idle"
+          state.results = action.payload
+        },
+        rejected: (state) => {
+          state.status = "failed"
+        },
+      }
+    ),
   }),
   selectors: {
     selectResults: (state) => state.results,
@@ -48,6 +65,6 @@ export const gameSearchSlice = createGameSearchSlice({
   },
 });
 
-export const { createGameSearchState, updateFilters, updateResults, setStatus } = gameSearchSlice.actions
+export const { createGameSearchState, updateFilters, updateResults, setStatus, executeSearch } = gameSearchSlice.actions
 
 export const { selectResults, selectFilters, selectStatus } = gameSearchSlice.selectors

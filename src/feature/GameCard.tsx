@@ -1,5 +1,5 @@
 import { GameCard as GameCardComponent } from "@/components/GameCard/GameCard"
-import { BoardGame } from "@/lib/boardGameApi/data-access/boardGameApi"
+import { BoardGame } from "@/lib/boardGameApi/types"
 import Image from "next/image"
 import { ImageProp } from "./htmlElementTypes"
 

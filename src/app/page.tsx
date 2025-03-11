@@ -1,6 +1,6 @@
-import { getBoardGames } from "@/boardgameApi/data/boardgameApi"
+import { getBoardGames } from "@/lib/boardGameApi/data-access/boardGameApi"
 import styles from "./page.module.css"
-import { GameTeaser } from "@/components/GameTeaser/GameTeaser";
+import { GameTeaser } from "@/feature/GameTeaser";
 
 export default async function Home() {
   const games = await getBoardGames()
@@ -10,17 +10,7 @@ export default async function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Board Games</h1>
         <div className={styles.games}>
-          {games.map(game => (
-            <GameTeaser
-              key={game.id}
-              id={game.id}
-              name={game.name}
-              players={game.players}
-              coverImage={game.coverImage}
-              rulesLink={game.rulesLink}
-              status={game.status}
-            />
-          ))}
+          {games.map(game => <GameTeaser key={game.id} game={game} />)}
         </div>
       </main>
     </div>

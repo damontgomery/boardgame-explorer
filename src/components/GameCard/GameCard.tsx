@@ -1,4 +1,4 @@
-import Image from "next/image"
+import { ImageProp } from "@/feature/htmlElementTypes"
 import styles from "./GameCard.module.css"
 
 export const GameCard = ({
@@ -8,7 +8,8 @@ export const GameCard = ({
   boardGameGeekLink,
   coverImage,
   rulesLink,
-  status
+  status,
+  Image
 }: {
   name: string
   description: string
@@ -17,6 +18,7 @@ export const GameCard = ({
   coverImage: string
   rulesLink?: string
   status?: string[]
+  Image: ImageProp
 }) => <div className={styles.component}>
     <Image
       className={styles.coverImage}

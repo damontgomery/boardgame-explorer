@@ -1,5 +1,5 @@
-import { getBoardGame } from "@/boardgameApi/data/boardgameApi"
-import { GameCard } from "@/components/GameCard/GameCard"
+import { getBoardGame } from "@/lib/boardGameApi/data-access/boardGameApi"
+import { GameCard } from "@/feature/GameCard"
 
 export default async function Game({
   params,
@@ -13,19 +13,7 @@ export default async function Game({
   try {
     const game = await getBoardGame(id)
 
-    const { name, description, players, boardGameGeekLink, coverImage, rulesLink, status } = game
-
-    return (
-      <GameCard
-        name={name}
-        coverImage={coverImage}
-        description={description}
-        players={players}
-        boardGameGeekLink={boardGameGeekLink}
-        rulesLink={rulesLink}
-        status={status}
-      />
-    )
+    return <GameCard game={game} />
   }
   catch {
     return (

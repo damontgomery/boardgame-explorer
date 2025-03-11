@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { BoardGame, getBoardGame } from '@/boardgameApi/data/boardgameApi'
+import { BoardGame, getBoardGame } from '@/lib/boardGameApi/data-access/boardGameApi'
 
 type ResponseData = {
   message?: string

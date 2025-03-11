@@ -1,6 +1,5 @@
-import Image from "next/image"
+import { ImageProp, LinkProp } from "@/feature/htmlElementTypes"
 import styles from "./GameTeaser.module.css"
-import Link from "next/link"
 
 export const GameTeaser = ({
   id,
@@ -8,7 +7,9 @@ export const GameTeaser = ({
   players,
   coverImage,
   rulesLink,
-  status
+  status,
+  Image,
+  Link
 }: {
   id: string
   name: string
@@ -16,6 +17,8 @@ export const GameTeaser = ({
   coverImage: string
   rulesLink?: string
   status?: string[]
+  Image: ImageProp
+  Link: LinkProp
 }) => <div className={styles.component}>
     <Link href={`/game/${id}`}>
       <Image

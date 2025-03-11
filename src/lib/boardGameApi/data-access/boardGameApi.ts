@@ -1,4 +1,4 @@
-import 'server-only'
+// import 'server-only'
 import mockData from './mockData.json'
 
 export type BoardGameStatus = "own" | "previously owned" | "want to play"

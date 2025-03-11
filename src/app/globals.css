@@ -1,12 +1,20 @@
+/* color palette */
+/*  #c7522a, #e5c185, #f0daa5, #74a892, #b8cdab, #74a892, #008585, #004343 */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-primary: #c7522a;
+  --color-secondary: #004343;
+  --color-tertiary: #74a892;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --color-primary: #e5c185;
+    --color-secondary: #74a892;
+    --color-tertiary: #74a892;
   }
 }
 
@@ -31,8 +39,8 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--color-primary);
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {

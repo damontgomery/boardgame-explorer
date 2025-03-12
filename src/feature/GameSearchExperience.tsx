@@ -15,10 +15,16 @@ const InitializeGameSearch = () => {
   const dispatch = useGameSearchDispatch()
 
   useEffect(() => {
-    if (initialLoad && games.length === 0) {
-      setInitialLoad(false)
+    if (!initialLoad) {
+      return
     }
 
+    // If for some reason some other systems has populated the store, we don't need to fetch.
+    if (games.length !== 0) {
+      return
+    }
+
+    setInitialLoad(false)
     dispatch(executeSearch())
   }, [dispatch, initialLoad, games.length])
 
@@ -26,7 +32,7 @@ const InitializeGameSearch = () => {
 }
 
 export const GameSearchExperience = () => {
-  
+
 
   return (
     <GameSearchStoreProvider>

@@ -18,6 +18,10 @@ export async function GET(request: NextRequest): Promise<NextResponse<ResponseDa
       .map((string) => string.replaceAll('-', ' ')) as unknown as BoardGameStatus[]
   }
 
+  if (searchParams.has('players')) {
+    getBoardGamesParams.players = searchParams.get('players')?.split(',')
+  }
+
   const games = await getBoardGames(getBoardGamesParams)
 
   return NextResponse.json({ data: games }, { status: 200 })

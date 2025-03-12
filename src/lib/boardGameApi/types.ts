@@ -1,4 +1,5 @@
-export type BoardGameStatus = "own" | "previously owned" | "want to play"
+export const boardGameStatuses = ["own", "previously owned", "want to play"] as const
+export type BoardGameStatus = typeof boardGameStatuses[number] 
 
 export type BoardGame = {
   id: string

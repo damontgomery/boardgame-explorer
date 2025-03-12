@@ -1,0 +1,12 @@
+.filters {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* The alignment on these markers is tough because the first and last items reach near the end. */
+.playersMarkers {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr) 1rem;
+}

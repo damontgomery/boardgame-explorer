@@ -9,11 +9,13 @@ type ApiResponse = {
 export type GetBoardGamesParams = {
   search?: string
   status?: BoardGameStatus[]
+  players?: string[]
 }
 
 // @todo additional filters.
 export const getBoardGames = ({
   status = [],
+  players = [],
 }: GetBoardGamesParams = {}): Promise<BoardGame[]> => Promise.resolve(
   (mockData as ApiResponse).results
     .filter((game) => {
@@ -22,6 +24,13 @@ export const getBoardGames = ({
       }
 
       return status.every((filteredStatus) => game.status.includes(filteredStatus))
+    })
+    .filter((game) => {
+      if (!players || players.length === 0) {
+        return true
+      }
+
+      return players.every((filteredPlayerCount) => game.players.includes(filteredPlayerCount))
     })
 )
 

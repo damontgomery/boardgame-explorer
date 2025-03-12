@@ -1,4 +1,4 @@
-import GameSearchExperience from "@/feature/GameSearchExperience";
+import { GameSearchExperience } from "@/feature/GameSearchExperience";
 import styles from "./page.module.css"
 
 export default async function Home() {

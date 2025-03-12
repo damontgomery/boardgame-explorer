@@ -20,7 +20,10 @@ export async function GET(
   try {
     const game = await getBoardGame(id)
 
-    return NextResponse.json({ data: game }, { status: 200 })
+    return NextResponse.json({ data: game }, {
+      status: 200,
+      headers: { 'Cache-Control': 'public, max-age=600' }
+    })
   }
   catch (error) {
     const message = error instanceof Error ? error.message : 'An error occurred'

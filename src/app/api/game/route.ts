@@ -24,5 +24,8 @@ export async function GET(request: NextRequest): Promise<NextResponse<ResponseDa
 
   const games = await getBoardGames(getBoardGamesParams)
 
-  return NextResponse.json({ data: games }, { status: 200 })
+  return NextResponse.json({ data: games }, {
+    status: 200,
+    headers: { 'Cache-Control': 'public, max-age=600' }
+  })
 }

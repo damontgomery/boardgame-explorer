@@ -13,6 +13,7 @@ export const GameCard = ({
     status={game.status}
     players={game.players}
     rulesLink={game.rulesLink}
+    boardGameGeekLink={game.boardGameGeekLink}
     description={game.description}
     Image={Image as ImageProp}
   />

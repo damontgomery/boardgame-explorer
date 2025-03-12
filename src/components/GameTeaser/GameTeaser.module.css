@@ -23,6 +23,21 @@
   height: auto;
 }
 
+.skeleton {
+  border-color: var(--skeleton-color);
+
+  .coverImage {
+    background-color: var(--skeleton-color);
+    border-radius: 4px;
+  }
+
+  .details > * {
+    background-color: var(--skeleton-color);
+    height: 1em;
+    border-radius: 4px;
+  }
+}
+
 .details {
   display: grid;
   gap: 1rem;

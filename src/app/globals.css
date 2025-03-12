@@ -6,6 +6,8 @@
   --color-primary: #c7522a;
   --color-secondary: #004343;
   --color-tertiary: #74a892;
+
+  --skeleton-color: #909090;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,4 +49,18 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+@keyframes skeleton {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* I had difficulty getting this to be recognized by CSS modules, so for now, just have a global class. */
+.skeleton {
+  animation: skeleton 5s infinite;
 }

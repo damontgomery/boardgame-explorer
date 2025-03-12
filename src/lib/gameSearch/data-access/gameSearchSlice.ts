@@ -45,6 +45,7 @@ export const gameSearchSlice = createGameSearchSlice({
     executeSearch: create.asyncThunk(
       (_data, thunkApi) => {
         // @todo determine why TS isn't getting the type here.
+        // @ts-expect-error - TS is not getting the type here.
         return getBoardGames(thunkApi.getState().gameSearch.filters)
       },
       {

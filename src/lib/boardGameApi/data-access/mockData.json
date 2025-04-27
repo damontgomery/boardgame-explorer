@@ -1,6 +1,56 @@
 {
   "results": [
     {
+      "id": "307305",
+      "name": "Bullet♥︎",
+      "description": "In Bullet♥︎, players take on the role of heroines in a far-flung future Earth and use their incredible powers to defend the Earth from evil — as well as from one another! Each heroine's powers manifest in a different form, with players controlling sound, paper, technology, gravity, triangles, and more!",
+      "players": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/307305/bullet-love",
+      "coverImage": "bullet-heart.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Can't Stop",
+      "description": "In this Sid Sackson classic, players must press their luck with dice and choose combinations tactically to close out three columns. The board has one column for each possible total of two six-sided dice, but the number of spaces in each column varies: the more probable a total, the more spaces in that column and the more rolls it takes to complete. On their turn, a player rolls four dice and arranges them in duos: 1 4 5 6 can become 1+4 and 5+6 for 5 & 11, 1+5 and 4+6 for 6 & 10, or 1+6 and 4+5 for 7 & 9. The player places or advances progress markers in the open column(s) associated with their chosen totals, then chooses whether to roll again or end their turn and replace the progress markers with markers of their color. A player can only advance three different columns in a turn and cannot advance a column which any player has closed out by reaching the end space; if a roll doesn’t result in any legal plays, the turn ends with that turn’s progress lost.",
+      "players": [
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/41/cant-stop",
+      "coverImage": "cant-stop.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "416851",
+      "name": "Castle Combo",
+      "description": "A quick and nifty card game by the publisher of Faraway. Each player will spend coins to draft 9 cards from 2 open markets on the table (the lower and upper city), creating along the game a 3x3 square of people interacting with each other to trigger instant effects and end-of-game bonuses.",
+      "players": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/416851/castle-combo",
+      "coverImage": "castle-combo.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
       "id": "5782",
       "name": "Coloretto",
       "description": "Game play in Coloretto is simple: Either draw a card to play to a row, or take a row of cards to add them to your collection. A row can have at most three cards, so at some point everyone is forced to take a row. Once all the rows have been claimed, players start a new round, drawing or taking once again.",
@@ -12,6 +62,91 @@
       ],
       "boardGameGeekLink": "https://boardgamegeek.com/boardgame/5782/coloretto",
       "coverImage": "coloretto.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "104162",
+      "name": "Descent: Journeys in the Dark (Second Edition)",
+      "description": "In Descent: Journeys in the Dark (Second Edition), one player takes on the role of the treacherous overlord, and up to four other players take on the roles of courageous heroes. During each game, the heroes embark on quests and venture into dangerous caves, ancient ruins, dark dungeons, and cursed forests to battle monsters, earn riches, and attempt to stop the overlord from carrying out his vile plot. Featuring double-sided modular board pieces, countless hero and skill combinations, and an immersive story-driven campaign, Descent: Journeys in the Dark (Second Edition) transports heroes to a vibrant fantasy realm where they must stand together against an ancient evil.",
+      "players": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/104162/descent-journeys-in-the-dark-second-edition",
+      "coverImage": "descent-second-edition.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "277659",
+      "name": "Final Girl",
+      "description": "Playing on a famous horror movie trope, Final Girl is a solitaire-only game that puts the player in the shoes of a female protagonist who must kill the slasher if she wants to survive.",
+      "players": [
+        "1"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/277659/final-girl",
+      "coverImage": "final-girl-into-the-void.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "173",
+      "name": "Formula Dé",
+      "description": "Formula Dé is a fast-paced racing game in which the cars' top speeds are limited by having to end a certain number of turns in each curve of the racetrack. This can be tricky, because although players can regulate their speeds by choosing which gear to be in and each gear allows a certain range of movement, the exact amount is determined randomly. Great fun for a big group.",
+      "players": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/173/formula-de",
+      "coverImage": "formula-de.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "169697",
+      "name": "Heldentaufe",
+      "description": "The day that you have been waiting for has come. At last, you can prove that you are worthy of being a member of the Hero‘s council. Show them your skills by collecting the golden monster teeth. But be aware - the lands of Taora are not as peaceful as they seem. Rumor has it, that in the dark and gloomy Netherworld, some friends become enemies...",
+      "players": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/169697/heldentaufe",
+      "coverImage": "heldentaufe.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "420240",
+      "name": "Hunted: Mining Colony 415 (Second Edition)",
+      "description": "You were on your way back to earth after a year-long mission when a distress beacon abruptly roused you from hypersleep. The message was mostly static, but it was obvious that something terrible was happening at Mining Colony 415.",
+      "players": [
+        "1"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/420240/hunted-mining-colony-415-2nd-edition",
+      "coverImage": "hunted-mining-colony-415.webp",
       "rulesLink": null,
       "status": [
         "own"
@@ -50,6 +185,94 @@
       ]
     },
     {
+      "id": "295374",
+      "name": "Long Shot: The Dice Game",
+      "description": "In Long Shot: The Dice Game, you and up to seven other players will strategize and push your luck as the action unfolds in a tense race of eight horses. During the game you buy horses, place bets, influence race movement, and utilize special abilities. The roll of the dice determines which horses move and the options available each turn, so be ready to adapt your plans. Once three horses cross the finish line, earnings are totaled. While there are many ways to earn money during a horse race, only the player that makes the most money will be declared the winner. Will you play it safe, or risk it big on a long shot?",
+      "players": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/295374/long-shot-the-dice-game",
+      "coverImage": "long-shot-the-dice-game.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "67888",
+      "name": "Lords of Scotland",
+      "description": "The throne lies empty and the clans are restless. As a lord of Scotland with land, men and money at your disposal, now is the time to lay your claim. But you are not alone. Your rivals have been waiting for just such an opportunity themselves and they are poised to act. With the clans of Scotland ready to follow the strongest leader, it is up to you to win the loyalty of the clans first. If you can demonstrate your prowess in battle to enough clans, then the rest will fall in line behind you. Do you have the audacity and cunning it takes to be crowned king?",
+      "players": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/67888/lords-of-scotland",
+      "coverImage": "lords-of-scotland.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "284653",
+      "name": "Mind MGMT: The Psychic Espionage Game",
+      "description": "Working from the shadows, Mind MGMT once used its psychically-powered agents to put a stop to global crises. However, absolute power corrupts absolutely, and Mind MGMT is now rotting from the inside. To tighten its iron grip on the world stage, Mind MGMT deploys covert operatives around the world to recruit other psychically-attuned individuals to their side. How can this enigmatic organization, hell bent on global domination, be defeated?",
+      "players": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/284653/mind-mgmt-the-psychic-espionage-game",
+      "coverImage": "mind-mgmt.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "256",
+      "name": "Mississippi Queen",
+      "description": "In this light, fun family game, players race their paddleboats down the Mississippi, picking up passengers along the way. But onboard coal supplies are limited, so each ship's acceleration and maneuvers must be carefully planned. Perhaps most interestingly, the twists and turns of the river are unknown at the start of the game, and are only revealed as ships progress downstream.",
+      "players": [
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/256/mississippi-queen",
+      "coverImage": "mississippi-queen.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "15363",
+      "name": "Nexus Ops",
+      "description": "Nexus Ops is a light-medium science fiction war game. The game boasts a hexagonal board that is set up differently every time, as well as lots of combat. Players control competing futuristic corporations that battle each other for control of the moon's Rubium Ore. By winning battles and fulfilling Secret Missions, you can obtain victory points.",
+      "players": [
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/15363/nexus-ops",
+      "coverImage": "nexus-ops.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
       "id": "420017",
       "name": "Rebel Princess",
       "description": "Snow White, The Little Mermaid, Cinderella, and many other legendary princesses are celebrating a five-day party. The prince charmings, who have not been invited, will try to infiltrate the ball to propose marriage to the girls. As a princess, you have to avoid marriage proposals and remain single and independent after the celebrations.",
@@ -65,6 +288,126 @@
       "status": [
         "own",
         "want to play"
+      ]
+    },
+    {
+      "id": "811",
+      "name": "Rummikub",
+      "description": "Rummikub is similar to several central European card games which are played with two decks of playing cards, including Machiavelli and Vatikan. Ephraim Hertzano invented the tile game Rummikub in the 1940s when card-playing was outlawed under the Communist regime. After World War II, Hertzano immigrated to British Mandate of Palestine (now Israel) and developed the first sets with his family. Over the years, the Hertzano family licensed it to other countries and Rummikub became Israel's best-selling export game.",
+      "players": [
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/811/rummikub",
+      "coverImage": "rummikub.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "256589",
+      "name": "Rallyman: GT",
+      "description": "Rallyman: GT is a Roll and Move racing game that will have you rolling dice and pushing your luck to be the first over the finish line!",
+      "players": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/256589/rallyman-gt",
+      "coverImage": "rallyman-gt.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "42452",
+      "name": "Rattus",
+      "description": "Europe, 1347. A disaster is about to strike. The Black Death reaches Europe, and during the next 4-5 years, the population of Europe will be halved.",
+      "players": [
+        "2",
+        "3",
+        "4"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/42452/rattus",
+      "coverImage": "rattus.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "177639",
+      "name": "Raptor",
+      "description": "Raptor is a card-driven board game with tactical play and some double guessing. Players use their cards to move their pawns — with the scientists on one side, Mother and baby raptors on the other — on the board. Every round, the player who played the lowest ranked card can use the corresponding action, while their opponent has movement or attack points equal to the difference between the values of the two cards. The scientists can use fire, can move by jeep on the tracks, and can even call for reinforcements, while the mamma raptor can hide in the bushes, yell to frighten the scientists, and call for her babies.",
+      "players": [
+        "2"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/177639/raptor",
+      "coverImage": "raptor.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Robo Rally",
+      "description": "The robots of the RoboRally automobile factory spend their weekdays toiling at the assembly line. They put in hard hours building high-speed supercars they never get to see in action. But on Saturday nights, the factory becomes a world of mad machines and dangerous schemes as these robots engage in their own epic race.It takes speed, wits, and dirty tricks to become a racing legend! Each player chooses a robot and directs its moves by playing cards. Chaos ensues as all players reveal the cards they've chosen. Players face obstacles like industrial lasers, gaping pits, and moving conveyor belts -- but those can also be used to their advantage! Each player aims to make it to each of the checkpoints in numerical order. The first player to reach all of the checkpoints wins.",
+      "players": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/18/roborally",
+      "coverImage": "robo-rally.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "158812",
+      "name": "Shadow Throne",
+      "description": "Shadow Throne takes place in the Aclysmian empire, where the kingdom and royal family are torn apart in a bitter civil war. King Kyros clings on to power by any means necessary; his estranged Queen Eleftheria has joined a rebellion of conquered people; and their daughter, Princess Beatus, has rejected both of her parents to fight alongside the church.",
+      "players": [
+        "3",
+        "4",
+        "5"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/158812/shadow-throne",
+      "coverImage": "shadow-throne.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
+      ]
+    },
+    {
+      "id": "147747",
+      "name": "Super Fantasy: Ugly Snouts Assault",
+      "description": "Super Fantasy is the first hack'n'slash board game in which up to six players take on the roles of brave and unique heroes. During each game, players embark on tricky and mighty quests into ever-changing dangerous caves and dungeons swarmed with monsters and terrible creatures that try to slaughter them, while heroes try to gain treasures as well as better equipment in order to complete the missions.",
+      "players": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "boardGameGeekLink": "https://boardgamegeek.com/boardgame/147747/super-fantasy-ugly-snouts-assault",
+      "coverImage": "super-fantasy-usa.webp",
+      "rulesLink": null,
+      "status": [
+        "own"
       ]
     },
     {
